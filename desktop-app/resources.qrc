@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>ProjectCard.qml</file>
+        <file>AddItemPopup.qml</file>
+    </qresource>
+</RCC>

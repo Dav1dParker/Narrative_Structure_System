@@ -1,0 +1,20 @@
+# Qt
+*.user
+*.pro.user
+*.autosave
+
+# CMake
+build/
+CMakeFiles/
+CMakeCache.txt
+
+# UE
+Binaries/
+Intermediate/
+Saved/
+
+# OS/IDE
+.DS_Store
+.vscode/
+.idea/
+*.log
