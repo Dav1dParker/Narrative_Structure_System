@@ -1,6 +1,6 @@
 # Narrative Structure System
 
-# English language will be added to project with next commit
+# English language will be added to project within next update
 
 Система для структурирования нарративного дизайна и интеграции данных в Unreal Engine 5. Состоит из двух независимых компонентов:
 
