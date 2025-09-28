@@ -1,6 +1,46 @@
 # Narrative Structure System
 
-# English language will be added to project within next update
+A system for structuring narrative design and integrating data into Unreal Engine 5. It consists of two independent components:
+
+* `desktop-app/` — Qt application for narrative designers (create characters, locations, events, export JSON/XML).
+* `unreal-plugin/` — UE5 plugin for importing JSON and linking entities to in-engine objects.
+
+```
+repo/
+├── desktop-app/    # Qt application source code
+├── unreal-plugin/  # plugin source code and .uplugin
+├── docs/           # detailed documentation, diagrams
+└── README.md
+```
+
+## Build & Run
+
+### Desktop App
+
+```bash
+cd desktop-app
+cmake -B build
+cmake --build build
+./build/NarrativeApp
+```
+
+Requires Qt 6+ and CMake 3.20+.
+
+### Unreal Plugin
+
+Copy `unreal-plugin` into the `Plugins/` folder of your UE project.
+
+Open the project in UE5 and enable **NSP** in the Plugins section.
+
+## Documentation
+
+Detailed documentation is available in the `docs/` directory.
+
+Demo video of the system in action:
+[https://youtu.be/YNYRDfXT-Jc](https://youtu.be/YNYRDfXT-Jc)
+
+
+---
 
 Система для структурирования нарративного дизайна и интеграции данных в Unreal Engine 5. Состоит из двух независимых компонентов:
 
